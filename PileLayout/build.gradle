@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.DalesDawson' // ××××代表你github名字
 android {
     compileSdkVersion 30
     buildToolsVersion "29.0.3"
