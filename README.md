@@ -1,5 +1,5 @@
 # HorizontalPileLayout
-一个横向滑动层叠布局，左滑可以一个个层叠起来，优化一个个平铺显示，效果图如下
+一个横向滑动层叠布局，左滑可以一个个层叠起来，右滑一个个平铺开显示，效果图如下
 # ![效果图](https://github.com/DalesDawson/HorizontalPileLayout/blob/master/app/src/main/imgs/f403c1fcf25556830e62ff53aa182184.gif)
 ## 使用方法：
 1.添加依赖
