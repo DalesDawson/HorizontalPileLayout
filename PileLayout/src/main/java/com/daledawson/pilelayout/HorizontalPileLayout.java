@@ -30,7 +30,7 @@ public class HorizontalPileLayout extends ViewGroup {
     private OnClickListener onClickListener;
 
     // 以下三个参数，可通过属性定制
-    private int interval = 30; // view之间的间隔
+    private int interval = 30; //  view之间的间隔
     private float sizeRatio = 1.1f; //高宽比例
     private float scaleStep = 0.36f; //放大倍数
 
