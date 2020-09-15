@@ -4,7 +4,7 @@
 ## 使用方法：
 1.添加依赖
 ```
- implementation 'com.github.DalesDawson:HorizontalPileLayout:1.0.2'
+ implementation 'com.github.DalesDawson:HorizontalPileLayout:1.0.3'
 ```
 2.在布局文件xml中使用
 ```
@@ -31,7 +31,8 @@
 
 3.在代码中设置adapter
 ```
- pileLayout.setAdapter(adapter);
+ pileLayout.setAdapter(adapter);//只需要设置一次，多次设置会出错
+ pileLayout.notifyDataSetChanged();//刷新调用这个方法
  HorizontalPileLayout.Adapter adapter = new HorizontalPileLayout.Adapter() {
         @Override
         public int getLayoutId() {
@@ -68,6 +69,7 @@
     class ViewHolder {
         RoundedImageView imageView;
     }
+
 ```
 Demo apk
 
