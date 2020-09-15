@@ -450,7 +450,7 @@ public class HorizontalPileLayout extends ViewGroup {
         for (int i = 0; i < num; i++) {
             FrameLayout frameLayout = (FrameLayout) getChildAt(i);
             int tag = Integer.parseInt(frameLayout.getTag().toString());
-            if (tag > 0 && tag < adapter.getItemCount()) {
+            if (tag >= 0 && tag < adapter.getItemCount()) {
                 frameLayout.setVisibility(View.VISIBLE);
                 adapter.bindView(frameLayout.getChildAt(0), tag);
             } else {
